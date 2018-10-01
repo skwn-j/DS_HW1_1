@@ -21,15 +21,21 @@ public class myAssignment {
                     break;
                 case "C" :
                     //check is empty
+                    System.out.println("The list contains some element(s).");
+                    System.out.println("The list is empty");
                     break;
                 case "E" :
                     //search for string
+                    System.out.println("Please enter an index to search: ");
                     break;
                 case "L" :
                     //list strings
+                    System.out.print("{ ");
+                    System.out.println("}");
                     break;
                 case "O" :
                     //list current size
+                    System.out.println("The current size is ");
                     break;
                 case "Q" :
                     //quit
@@ -37,12 +43,15 @@ public class myAssignment {
                     break;
                 case "R" :
                     //remove string
+                    System.out.println("Please enter the index of a string to remove: ");
                     break;
                 case "T" :
                     //reverse
+                    System.out.println("list reversed");
                     break;
                 case "U" :
                     //Remove duplicates
+                    System.out.println("duplicate removed");
                     break;
                 case "?" :
                     //Display help
